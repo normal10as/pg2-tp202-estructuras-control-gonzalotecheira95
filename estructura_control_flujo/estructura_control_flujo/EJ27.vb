@@ -6,17 +6,17 @@
         a = Console.ReadLine()
 
         Select Case a
-            Case a < 90
+            Case Is < 90
                 Console.WriteLine("El angulo es Agudo!.")
-            Case a = 90
+            Case Is = 90
                 Console.WriteLine("El angulo es Recto!.")
-            Case a > 90 And a < 180
+            Case Is > 90 And a < 180
                 Console.WriteLine("El angulo es Obtuso!.")
-            Case a = 180
+            Case Is = 180
                 Console.WriteLine("El angulo es Llano!.")
-            Case a > 180 And a < 360
+            Case Is > 180 And a < 360
                 Console.WriteLine("El angulo es Concavo!.")
-            Case a < 0 And a > 360
+            Case Is < 0 And a > 360
                 Console.WriteLine("Error ingrese un grado que corresponde!.")
         End Select
         Console.ReadKey()
