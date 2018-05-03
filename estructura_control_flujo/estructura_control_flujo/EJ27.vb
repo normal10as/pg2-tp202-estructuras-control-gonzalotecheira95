@@ -16,7 +16,7 @@
                 Console.WriteLine("El angulo es Llano!.")
             Case Is > 180 And a < 360
                 Console.WriteLine("El angulo es Concavo!.")
-            Case Is < 0 And a > 360
+            Case Else
                 Console.WriteLine("Error ingrese un grado que corresponde!.")
         End Select
         Console.ReadKey()

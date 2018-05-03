@@ -10,13 +10,13 @@
         Console.WriteLine("Sub Total" & vbCrLf & "Cantidad por precio unitario: " & d)
         Select Case a
 
-            Case a >= 10
+            Case Is >= 10
                 c = d * 5 / 100
                 Console.WriteLine("Se desconto un 5%")
-            Case a >= 51
+            Case Is >= 51
                 c = d * 10 / 100
                 Console.WriteLine("Se desconto un 10%")
-            Case a >= 251
+            Case Is >= 251
                 c = d * 20 / 100
                 Console.WriteLine("Se desconto un 20%")
         End Select
