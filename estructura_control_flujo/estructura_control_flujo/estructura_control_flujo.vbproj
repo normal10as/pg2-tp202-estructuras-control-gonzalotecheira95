@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9FA834A1-3352-4C9C-BD10-A3DCC13DD8D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>estructura_control_flujo.EJ212</StartupObject>
+    <StartupObject>estructura_control_flujo.EJ214</StartupObject>
     <RootNamespace>estructura_control_flujo</RootNamespace>
     <AssemblyName>estructura_control_flujo</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -71,6 +71,8 @@
     <Compile Include="EJ210.vb" />
     <Compile Include="EJ211.vb" />
     <Compile Include="EJ212.vb" />
+    <Compile Include="EJ213.vb" />
+    <Compile Include="EJ214.vb" />
     <Compile Include="EJ28.vb" />
     <Compile Include="EJ21.vb" />
     <Compile Include="EJ22.vb" />
