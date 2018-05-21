@@ -9,7 +9,7 @@
 
         If (a < b) And (a < c) Then
             d = a
-        ElseIf (b < a) And (b < c) Then
+        ElseIf (b < c) Then
             d = b
         Else
             d = c
